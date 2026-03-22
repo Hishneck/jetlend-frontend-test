@@ -86,6 +86,9 @@ export const aggregatedUserData = (
         );
     }
 
+
+
     return Array.from(result.values()).sort((a, b) => a.name.localeCompare(b.name))
+
 }
 
